@@ -1,0 +1,6 @@
+.card-grid {
+    padding: 68px 165px ;
+    background-color: var(--grey-1);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+}

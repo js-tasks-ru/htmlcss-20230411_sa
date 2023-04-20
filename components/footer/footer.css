@@ -1,0 +1,23 @@
+.footer {}
+
+.footer__heading {
+    margin: 71px 0px 32px;
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.footer__content {
+    margin: 0px 383px 0px 417px;
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
