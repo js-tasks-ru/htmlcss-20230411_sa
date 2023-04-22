@@ -1,12 +1,11 @@
 /* Стилизация кнопки */
 
-@import '../../assets/css/main.css';
-
 .button {
     min-width: 189px;
     min-height: 48px;
     border-radius: 8px;
     border: 0;
+    padding: 5px;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -15,6 +14,10 @@
     line-height: 19px;
 }
 
+.button:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
 
 /* модификаторы */
 .button_primary {
@@ -48,9 +51,4 @@
 .button_alternate:hover {
     border: 1px solid var(--black);
     transition: border 200ms ease-in-out;
-}
-
-.button_disabled {
-    pointer-events: none;
-    opacity: 0.5;
 }
