@@ -1,1 +1,37 @@
 /* Стилизация аккордеона */
+
+.accordion {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 730px;
+}
+
+.accordion__details {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.accordion__details:last-child {
+    margin-bottom: 0px;
+}
+
+.accordion__summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 24px 0px 24px 32px;
+}
+
+/* Вроде по БЕМ не хорошо "комбинировать" селекторы но я не нашел способа как поменять паддинг summary при открытии details */
+/* PS Я бы мог "оттолкнуться" от  details (padding top left) но тогда проблема была бы в том что "кликабельная" зона уменьшилась в размерах*/
+.accordion__details[open]>.accordion__summary {
+    padding-bottom: 16px;
+}
+
+.accordion__content {
+    margin: 0px;
+    padding: 0px 0px 32px 32px;
+}
