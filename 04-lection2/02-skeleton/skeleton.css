@@ -1,0 +1,33 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 32px 24px;
+}
+
+.skeleton__header {
+    margin-bottom: 24px;
+    
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    background-color: var(--grey-2);
+    border: 1px solid var(--grey-2);
+    border-radius: 50%;
+}
+
+.skeleton__content-collection {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    row-gap: 8px;
+}
+
+.skeleton__content {
+    height: 20px;
+    background-image: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2)102.52%);
+}

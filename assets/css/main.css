@@ -12,6 +12,8 @@
 @import '../../03-lection1/02-accordion/accordion.css';
 
 
+@import '../../04-lection2/02-skeleton/skeleton.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
