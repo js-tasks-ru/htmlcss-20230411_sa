@@ -13,6 +13,8 @@
 
 @import '../../04-lection2/01-histogram/histogram.css';
 
+@import '../../04-lection2/02-skeleton/skeleton.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
