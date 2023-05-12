@@ -1,6 +1,7 @@
 .tooltip {
     display: inline-block;
     position: relative;
+
 }
 
 .tooltip__icon {
@@ -29,6 +30,11 @@
 
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 10px;
+    
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tooltip__message-box:after {
@@ -39,13 +45,6 @@
 
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.tooltip__message-box_up {
-    position: absolute;
-    bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
