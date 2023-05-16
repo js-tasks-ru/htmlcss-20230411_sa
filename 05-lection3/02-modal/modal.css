@@ -1,5 +1,5 @@
 .modal-form {
-    width: 428px;
+    max-width: 428px;
     height: 294px;
 
     padding: 30px 40px 33px;
@@ -7,7 +7,7 @@
     border: 1px solid var(--white);
     border-radius: 8px;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -24,8 +24,8 @@
 .modal-form__close {
     cursor: pointer;
     position: absolute;
-    top: 15.33px;
-    right: 15.33px;
+    top: 15px;
+    right: 15px;
 }
 
 .modal-form__close:hover {
