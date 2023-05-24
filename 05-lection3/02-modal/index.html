@@ -1,12 +1,29 @@
 <!DOCTYPE html>
-<!-- Страница с модалкой -->
-<html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+
+    <title>Modal</title>
+</head>
+
+<body style="margin: 30px;">
+    <button id= "modal-form-open" class="button button_primary">Open modal</button>
+    <dialog  id = "modal-form" class="modal-form">
+        <h3 class="modal-form__header">Modal title</h3>
+        <img id="modal-form-close" class="modal-form__close" src="../../assets/images/x.svg" alt="close">
+        <p class="modal-form__message">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est
+            sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+            sunt nostrud amet.
+        </p>
+    </dialog>
+</body>
+
+<script src="index.js"></script>
 </html>

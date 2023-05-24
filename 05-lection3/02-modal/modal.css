@@ -1,0 +1,53 @@
+.modal-form {
+    max-width: 428px;
+    height: 294px;
+
+    padding: 30px 40px 33px;
+
+    border: 1px solid var(--white);
+    border-radius: 8px;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal-form::backdrop {
+    background:var(--grey-5);
+    opacity: 0.5;
+}
+
+
+
+.modal-form__close {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.modal-form__close:hover {
+    width: 20px;
+}
+
+.modal-form__header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--blue-4);
+
+    display: inline-block;
+}
+
+.modal-form__message {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: var(--grey-4);
+}

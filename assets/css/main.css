@@ -20,6 +20,9 @@
 
 @import '../../05-lection3/03-calendar/calendar.css';
 
+
+@import '../../05-lection3/02-modal/modal.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -30,6 +33,8 @@
     --blue: #374FC7;
     --blue-2: #4263EB;
     --blue-3: #0425ab;
+    --blue-4: #334D6E;
+
     --red: #F03D3E;
     --grey-1: #F9FAFC;
     --grey-2: #DDE2E5;
@@ -42,6 +47,10 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+}
+
+::backdrop {
+    --grey-5: #C4C4C4;
 }
 
 * {
