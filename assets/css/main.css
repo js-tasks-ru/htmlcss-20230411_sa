@@ -23,6 +23,8 @@
 
 @import '../../05-lection3/02-modal/modal.css';
 
+@import '../../06-lection4/01-avatar/avatar.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
