@@ -1,0 +1,27 @@
+.background-task {
+    height: 225px;
+    width: 100%;
+    background-image: url('../02-background-image/public/forest_400.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .background-task {
+        background-image: url('../02-background-image/public/forest_768.jpg');
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .background-task {
+        background-image: url('../02-background-image/public/forest_1024.jpg');
+    }
+}
+
+
+@media (min-width: 2560px) {
+    .background-task {
+        background-image: url('../02-background-image/public/forest_2560.jpg');
+    }
+}
