@@ -3,6 +3,7 @@
     width: 100%;
     background-image: url('../02-background-image/public/forest_400.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 @media (min-width: 768px) {
